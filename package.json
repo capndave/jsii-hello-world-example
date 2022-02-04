@@ -1,0 +1,44 @@
+{
+  "name": "jsii-example",
+  "version": "1.0.0",
+  "description": "jsii example",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+	"build": "jsii",
+    "build:watch": "jsii --watch",
+    "package": "jsii-pacmak",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/capndave/jsii-example.git"
+  },
+  "keywords": [],
+  "author": "David Thompson",
+  "email": "david.w.thompson@utexas.edu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/capndave/jsii-example/issues"
+  },
+  "homepage": "https://github.com/capndave/jsii-example#readme",
+  "stability": "stable",
+  "jsii": {
+    "outdir": "dist",
+    "versionFormat": "full",
+	"targets": {
+		"python": {
+			"module": "jsii_hello_world_example",
+			"distname": "jsii-hello-world-example",
+			"classifiers": [
+				"Intended Audience :: Developers"
+			]
+
+		}
+	}
+  },
+  "devDependencies": {
+    "jsii": "^1.52.1",
+    "jsii-pacmak": "^1.52.1"
+  }
+}

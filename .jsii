@@ -1,0 +1,121 @@
+{
+  "author": {
+    "name": "David Thompson",
+    "roles": [
+      "author"
+    ]
+  },
+  "description": "jsii example",
+  "docs": {
+    "stability": "stable"
+  },
+  "homepage": "https://github.com/capndave/jsii-example#readme",
+  "jsiiVersion": "1.52.1 (build 5ccc8f6)",
+  "keywords": [],
+  "license": "ISC",
+  "metadata": {
+    "jsii": {
+      "pacmak": {
+        "hasDefaultInterfaces": true
+      }
+    }
+  },
+  "name": "jsii-example",
+  "readme": {
+    "markdown": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/capndave/jsii-example.git"
+  },
+  "schema": "jsii/0.10.0",
+  "targets": {
+    "js": {
+      "npm": "jsii-example"
+    }
+  },
+  "types": {
+    "jsii-example.Greeter": {
+      "assembly": "jsii-example",
+      "docs": {
+        "stability": "stable"
+      },
+      "fqn": "jsii-example.Greeter",
+      "initializer": {
+        "docs": {
+          "stability": "stable"
+        },
+        "locationInModule": {
+          "filename": "src/index.ts",
+          "line": 8
+        },
+        "parameters": [
+          {
+            "name": "props",
+            "type": {
+              "fqn": "jsii-example.GreeterProps"
+            }
+          }
+        ]
+      },
+      "kind": "class",
+      "locationInModule": {
+        "filename": "src/index.ts",
+        "line": 5
+      },
+      "methods": [
+        {
+          "docs": {
+            "stability": "stable"
+          },
+          "locationInModule": {
+            "filename": "src/index.ts",
+            "line": 12
+          },
+          "name": "greet",
+          "returns": {
+            "type": {
+              "primitive": "string"
+            }
+          }
+        }
+      ],
+      "name": "Greeter",
+      "symbolId": "src/index:Greeter"
+    },
+    "jsii-example.GreeterProps": {
+      "assembly": "jsii-example",
+      "datatype": true,
+      "docs": {
+        "stability": "stable"
+      },
+      "fqn": "jsii-example.GreeterProps",
+      "kind": "interface",
+      "locationInModule": {
+        "filename": "src/index.ts",
+        "line": 1
+      },
+      "name": "GreeterProps",
+      "properties": [
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable"
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "src/index.ts",
+            "line": 2
+          },
+          "name": "greetee",
+          "type": {
+            "primitive": "string"
+          }
+        }
+      ],
+      "symbolId": "src/index:GreeterProps"
+    }
+  },
+  "version": "1.0.0",
+  "fingerprint": "Tz9ZjbOhBQ4bdIF2jl7lG6+b2fA6GWCjP3BWN/YoFy4="
+}
